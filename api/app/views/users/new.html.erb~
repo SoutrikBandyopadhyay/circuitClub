@@ -1,0 +1,21 @@
+<% title "New Student" %>
+<%= form_for @user do |f| %>
+<%= f.error_messages %>
+ <p>
+<%= f.label :name %><br />
+<%= f.text_field :name %>
+ </p>
+ <p>
+	 <%= f.label :email, "Email Address" %><br />
+	 <%= f.text_field :email %>
+ </p>
+ <p>
+	 <%= f.label :EnrollmentId %><br />
+	 <%= f.text_field :roll %>
+ </p>
+ <p>
+	<%= f.label :Batch %>
+ <%= f.text_field :batch %>
+ </p>	
+ <p><%= f.submit "Sign up" %></p>
+	<% end %>
