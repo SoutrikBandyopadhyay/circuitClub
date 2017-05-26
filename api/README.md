@@ -10,8 +10,8 @@ Download this repository and follow these steps::
 ## Links for getting json API
 	1. `cd api/`
 	2. `rails routes`
-Discard the one starting with /admin/
-	3. for getting json use */:id.json or */index.json format 
+	3. Discard the one starting with /admin/
+	4. For getting json use */:id.json or */index.json format 
 	 
 
 Version and Dependencies:
